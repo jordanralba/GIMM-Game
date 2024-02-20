@@ -26,6 +26,7 @@ public class ProjectileController : MonoBehaviour
     }
     void OnCollisionEnter(Collision collision){
         if(collision.gameObject.CompareTag("Player")){
+            collision.gameObject.GetComponent<AudioSource>().Play();
             Debug.Log("Game Over");
             Destroy(gameObject);
         }else if(collision.gameObject.CompareTag("Character")){
