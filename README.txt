@@ -1,5 +1,1 @@
-The ambient noise is attached to an object that follows the player at a fixed distance (The Space Billboard)
-
-The 3D Looping sound is attached to a projectile that is shot at the player to represent travel sound. This results in the travel sound getting louder as it gets closer to the player.
-
-The final noise is a indicator and it plays when the player is actively hit by the enemy projectile. There is no falloff as it comes from the player so it will always be at max gain.
+I have 2 example rooms to test out reverb. The first room is a small box with generic preset containing 1 reverb zone. The second room is a massive box with concerthall preset containing 4 different smaller reverb zones distributed to fill out the space more efficiently.
